@@ -819,6 +819,30 @@ section::before
     }
 }
 
+@media (max-width: 300px)
+{
+    .container .contactForm
+    {
+        padding: 20px;
+    }
+
+    .container .contactInfo{
+        padding: 20px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .container .contactInfo ul.sci
+    {
+        margin-top: 30px;
+    }
+
+    .container .contactForm .formBox .inputBox.w50
+    {
+        width: 100%;
+    }
+}
+
 @media (max-width: 600px)
 {
     .container .contactForm
@@ -841,5 +865,5 @@ section::before
     {
         width: 100%;
     }
-}
+}J
 /*--------------------------------------------CATERING---------------------------------------*/
